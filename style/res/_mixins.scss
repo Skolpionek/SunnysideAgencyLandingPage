@@ -1,0 +1,3 @@
+@mixin color-opacity($color, $opacity, $property) {
+   #{$property}: rgba($color, $opacity);
+}

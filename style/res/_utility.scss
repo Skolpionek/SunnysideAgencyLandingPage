@@ -1,0 +1,57 @@
+//Other
+   .d-flex{display: flex;}
+   .d-grid{display: grid;}
+   .d-block{display: block;}
+   .column{flex-direction: column;}
+   .row{flex-direction: row;}
+   .t-center{text-align: center;}
+   .f-center{justify-content: center;align-items: center;}
+//Color
+   //font
+      .clr-SoftRed{color: $clr-SoftRed;}
+      .clr-Yellow{ color:$clr-Yellow;}
+      .clr-DarkDesaturatedCyan{ color:$clr-DarkDesaturatedCyan; }
+      .clr-DarkBlue{ color:$clr-DarkBlue;}
+      .clr-DarkModerateCyan{ color:$clr-DarkModerateCyan;}
+      .clr-VeryDarkDesaturatedBlue{ color:$clr-VeryDarkDesaturatedBlue;}
+      .clr-VeryDarkGrayishBlue{ color:$clr-VeryDarkGrayishBlue;}
+      .clr-DarkGrayishBlue{ color:$clr-DarkGrayishBlue;}
+      .clr-GrayishBlue{ color:$clr-GrayishBlue;}
+      .clr-White{ color:$clr-White;}
+   //Background
+      .bg-SoftRed{background-color: $clr-SoftRed;}
+      .bg-Yellow{ background-color:$clr-Yellow;}
+      .bg-DarkDesaturatedCyan{ background-color:$clr-DarkDesaturatedCyan; }
+      .bg-DarkBlue{ background-color:$clr-DarkBlue;}
+      .bg-DarkModerateCyan{ background-color:$clr-DarkModerateCyan;}
+      .bg-VeryDarkDesaturatedBlue{ background-color:$clr-VeryDarkDesaturatedBlue;}
+      .bg-VeryDarkGrayishBlue{ background-color:$clr-VeryDarkGrayishBlue;}
+      .bg-DarkGrayishBlue{ background-color:$clr-DarkGrayishBlue;}
+      .bg-GrayishBlue{ background-color:$clr-GrayishBlue;}
+      .bg-White{ background-color:$clr-White;}
+//Typography
+   //Size
+      .fs-100{font-size: $fs-100;}
+      .fs-200{font-size: $fs-200;}
+      .fs-300{font-size: $fs-300;}
+      .fs-400{font-size: $fs-400;}
+      .fs-500{font-size: $fs-500;}
+      .fs-600{font-size: $fs-600;}
+      .fs-700{font-size: $fs-700;}
+      .fs-800{font-size: $fs-800;}
+      .fs-900{font-size: $fs-900;}
+   //Family
+      .ff-Barlow{font-family: $ff-Barlow;}
+      .ff-Fraunces{font-family: $ff-Fraunces;}
+   //Weight
+      .fw-100{font-weight: 100;}
+      .fw-200{font-weight: 200;}
+      .fw-300{font-weight: 300;}
+      .fw-400{font-weight: 400;}
+      .fw-500{font-weight: 500;}
+      .fw-600{font-weight: 600;}
+      .fw-700{font-weight: 700;}
+      .fw-800{font-weight: 800;}
+      .fw-900{font-weight: 900;}
+   //Transform
+      .uppercase{text-transform: uppercase;}
