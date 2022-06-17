@@ -1,0 +1,34 @@
+#section-2{
+   flex-direction: column-reverse;
+   article{
+      display: flex;
+      flex-direction: column;
+      gap: 2.5em;
+      padding: 6em 2em;
+      .section-link{
+         span{
+            position: relative;
+            z-index: 1;
+            &::after{
+            content: "";
+            display: block;
+            position: absolute;
+            @include color-opacity($clr-SoftRed,0.5,background-color);
+            left: -8px;
+            right: -8px;
+            bottom: -1px;
+            height: 10px;
+            border-radius: 10px;
+            z-index: -1;
+         }
+         }
+      }
+   }
+}
+@media only screen and (max-width: 800px){
+   #section-2{
+      picture img{
+         width: 100%;
+      }
+   }
+}

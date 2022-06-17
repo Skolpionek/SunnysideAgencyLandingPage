@@ -1,0 +1,16 @@
+footer{
+   position: relative;
+   gap: 2rem;
+   padding-block: 3rem;
+   .attribution { 
+      display: inline-block;
+      width: 100%;
+      margin: auto;
+      font-size: 11px;
+      text-align: center;
+      position: absolute;
+      bottom: 5px;
+   }
+   .attribution a { color: hsl(228, 45%, 44%); }
+   background-color: hsl(168, 69%, 77%);
+}

@@ -2,14 +2,21 @@
    .GraphicDesign{
       background-image: url(../images/mobile/image-graphic-design.jpg);
       background-size: cover;
-      min-height: 720px;
+      min-height: 700px;
       background-position: center ;
    }
    .Photography{
       background-image: url(../images/mobile/image-photography.jpg);
       background-size: cover;
-      min-height: 720px;
+      min-height: 700px;
       background-position: center ;
+   }
+   article{
+      display: flex;
+      flex-direction: column;
+      gap: 2em;
+      padding: 4em 1em;
+      justify-content: flex-end;
    }
 }
 @media only screen and (min-width: 800px){

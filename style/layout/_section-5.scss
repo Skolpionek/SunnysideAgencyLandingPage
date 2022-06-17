@@ -1,0 +1,8 @@
+.pictures{
+   display: flex;
+   flex-wrap: wrap;
+   picture{
+      display: inline-block;
+      width: 50%;
+   }
+}
