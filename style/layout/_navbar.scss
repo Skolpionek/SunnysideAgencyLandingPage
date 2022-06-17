@@ -1,11 +1,21 @@
+.navbar{
+   .logo-container{
+      display: flex;
+      align-items: center;
+   }
+   padding: 1rem 2rem;
+   justify-content: space-between;
+   @import '../components/button';
+}
 @media only screen and (max-width: 800px){
    .navbar{
+      padding: 2rem 3rem;
       .nav-items-container{
          position: absolute;
          flex-direction: column;
          justify-content: center;
          align-items: center;
-         padding: 3rem 0;
+         padding: 4rem 0;
          width: calc(100% - 4rem);
          top: 7rem;
          left: 2rem;
@@ -42,13 +52,4 @@
          background-image: url(../../images/icon-close.svg);
       }
    }
-}
-.navbar{
-   .logo-container{
-      display: flex;
-      align-items: center;
-   }
-   padding: 1rem 2rem;
-   justify-content: space-between;
-   @import '../components/button';
 }
