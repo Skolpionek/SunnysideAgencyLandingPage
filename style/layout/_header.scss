@@ -17,3 +17,12 @@
    }
    
 }
+@media only screen and (min-width: 800px){
+   .header{
+      background-image: url(../images/desktop/image-header.jpg);
+      min-height: 800px;
+      background-size: contain cover;
+      background-position: top center;
+      gap: 5em;
+   }
+}

@@ -352,6 +352,15 @@ a {
   width: 30px;
 }
 
+@media only screen and (min-width: 800px) {
+  .header {
+    background-image: url(../images/desktop/image-header.jpg);
+    min-height: 800px;
+    background-size: contain cover;
+    background-position: top center;
+    gap: 5em;
+  }
+}
 #section-1 {
   flex-direction: column-reverse;
 }
@@ -359,7 +368,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 2.5em;
-  padding: 6em 2em;
+  padding: 6rem 2em;
 }
 #section-1 article .section-link span {
   position: relative;
@@ -383,6 +392,32 @@ a {
     width: 100%;
   }
 }
+@media only screen and (min-width: 800px) {
+  #section-1 {
+    flex-direction: row;
+  }
+  #section-1 picture img {
+    width: 50vw;
+  }
+  #section-1 article {
+    padding: 0rem 2em;
+    width: 50vw;
+    justify-content: center;
+    gap: clamp(2rem, 1vw, 2.5rem);
+  }
+  #section-1 p, #section-1 h2, #section-1 a {
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    width: 70%;
+  }
+  #section-1 h2 {
+    font-size: clamp(2rem, 3vw, 2.75rem);
+  }
+  #section-1 p {
+    font-size: clamp(0.75rem, 1vw, 1.25rem);
+  }
+}
 #section-2 {
   flex-direction: column-reverse;
 }
@@ -390,7 +425,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 2.5em;
-  padding: 6em 2em;
+  padding: 6rem 2em;
 }
 #section-2 article .section-link span {
   position: relative;
@@ -414,6 +449,32 @@ a {
     width: 100%;
   }
 }
+@media only screen and (min-width: 800px) {
+  #section-2 {
+    flex-direction: row-reverse;
+  }
+  #section-2 picture img {
+    width: 50vw;
+  }
+  #section-2 article {
+    padding: 0 2em;
+    width: 50vw;
+    justify-content: center;
+    gap: clamp(2rem, 1vw, 2.5rem);
+  }
+  #section-2 p, #section-2 h2, #section-2 a {
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    width: 70%;
+  }
+  #section-2 h2 {
+    font-size: clamp(2rem, 3vw, 2.75rem);
+  }
+  #section-2 p {
+    font-size: clamp(0.75rem, 1vw, 1.25rem);
+  }
+}
 #section-3 .GraphicDesign {
   background-image: url(../images/mobile/image-graphic-design.jpg);
   background-size: cover;
@@ -435,15 +496,26 @@ a {
 }
 
 @media only screen and (min-width: 800px) {
+  #section-3 {
+    display: flex;
+    flex-direction: row;
+  }
   #section-3 .Photography {
     background-image: url(../images/desktop/image-photography.jpg);
+    width: 50vw;
   }
   #section-3 .GraphicDesign {
     background-image: url(../images/desktop/image-graphic-design.jpg);
+    width: 50vw;
   }
 }
 #section-4 {
   padding: 5.5rem 1.5rem;
+  gap: 5.5rem;
+}
+#section-4 div {
+  display: flex;
+  flex-direction: column;
   gap: 5.5rem;
 }
 #section-4 article {
@@ -457,6 +529,29 @@ a {
   border-radius: 50%;
 }
 
+@media only screen and (min-width: 800px) {
+  #section-4 {
+    padding: 12rem 5rem;
+  }
+  #section-4 div {
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  #section-4 div article {
+    width: 30%;
+  }
+  #section-4 h2 {
+    font-size: 1.75rem;
+  }
+  #section-4 article {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+}
 .pictures {
   display: flex;
   flex-wrap: wrap;
@@ -466,6 +561,12 @@ a {
   width: 50%;
 }
 
+@media only screen and (min-width: 800px) {
+  .pictures picture {
+    display: inline-block;
+    width: 25%;
+  }
+}
 footer {
   position: relative;
   gap: 2rem;
