@@ -262,10 +262,6 @@ a {
   min-height: 750px;
 }
 @media only screen and (max-width: 800px) {
-  .header .navbar {
-    padding: 2rem 2rem;
-    justify-content: space-between;
-  }
   .header .navbar .nav-items-container {
     position: absolute;
     flex-direction: column;
@@ -281,18 +277,6 @@ a {
     transition: transform 100ms ease-in-out;
     transform: translateY(-140%);
   }
-  .header .navbar .nav-items-container .nav-button {
-    background-color: hsl(0deg, 0%, 100%);
-    padding: 1em 2em;
-    border-radius: 2em;
-  }
-}
-@media only screen and (max-width: 800px) and (max-width: 800px) {
-  .header .navbar .nav-items-container .nav-button {
-    background-color: hsl(51deg, 100%, 49%);
-  }
-}
-@media only screen and (max-width: 800px) {
   .header .navbar .nav-items-container::before {
     content: "";
     width: 0;
@@ -304,14 +288,10 @@ a {
     right: 0;
     top: -30px;
   }
-}
-@media only screen and (max-width: 800px) {
   .header .navbar .nav-items-container.active {
     transition: transform 100ms ease-in-out;
     transform: translateY(0);
   }
-}
-@media only screen and (max-width: 800px) {
   .header .navbar .toggle {
     width: 25px;
     aspect-ratio: 1;
@@ -319,10 +299,35 @@ a {
     background-size: cover;
     cursor: pointer;
   }
-}
-@media only screen and (max-width: 800px) {
   .header .navbar .toggle.active {
     background-image: url(../../images/icon-close.svg);
+  }
+}
+.header .navbar {
+  padding: 1rem 2rem;
+  justify-content: space-between;
+}
+.header .navbar .logo-container {
+  display: flex;
+  align-items: center;
+}
+.header .navbar .nav-button {
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 0.75em 1.5em;
+  border-radius: 2em;
+}
+.header .navbar .nav-button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: hsl(0deg, 0%, 100%);
+}
+@media only screen and (max-width: 800px) {
+  .header .navbar .nav-button {
+    background-color: hsl(51deg, 100%, 49%);
+  }
+  .header .navbar .nav-button:hover {
+    background-color: hsl(212deg, 27%, 19%);
+    color: hsl(51deg, 100%, 49%);
+    border: 5px solid hsl(51deg, 100%, 49%);
   }
 }
 

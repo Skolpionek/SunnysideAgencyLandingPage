@@ -1,10 +1,19 @@
 .nav-button{
    background-color: $clr-White;
-   padding: 1em 2em;
+   padding: 0.75em 1.5em;
    border-radius: 2em;
+}
+.nav-button:hover{
+   @include color-opacity($clr-White,0.4,background-color);
+   color:$clr-White;
 }
 @media only screen and (max-width: 800px){
    .nav-button{
       background-color: $clr-Yellow;
+   }
+   .nav-button:hover{
+      background-color: $clr-VeryDarkDesaturatedBlue;
+      color:$clr-Yellow;
+      border: 5px solid $clr-Yellow;
    }
 }

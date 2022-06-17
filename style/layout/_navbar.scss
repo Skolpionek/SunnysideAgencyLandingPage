@@ -1,7 +1,5 @@
 @media only screen and (max-width: 800px){
    .navbar{
-      padding: 2rem 2rem;
-      justify-content: space-between;
       .nav-items-container{
          position: absolute;
          flex-direction: column;
@@ -16,7 +14,7 @@
          color: $clr-DarkGrayishBlue;
          transition: transform 100ms ease-in-out;
          transform: translateY(-140%);
-         @import '../components/button';
+         
       }
       .nav-items-container::before{
          content: "";
@@ -44,4 +42,13 @@
          background-image: url(../../images/icon-close.svg);
       }
    }
+}
+.navbar{
+   .logo-container{
+      display: flex;
+      align-items: center;
+   }
+   padding: 1rem 2rem;
+   justify-content: space-between;
+   @import '../components/button';
 }
