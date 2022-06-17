@@ -1,0 +1,10 @@
+.nav-button{
+   background-color: $clr-White;
+   padding: 1em 2em;
+   border-radius: 2em;
+}
+@media only screen and (max-width: 800px){
+   .nav-button{
+      background-color: $clr-Yellow;
+   }
+}

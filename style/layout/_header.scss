@@ -1,3 +1,8 @@
 .header{
-   background-image: url(../images/desktop/image-header.jpg);
+   background-image: url(../images/mobile/image-header.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   min-height: 750px;
+   @import './navbar';
 }

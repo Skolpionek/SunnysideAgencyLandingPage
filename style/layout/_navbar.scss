@@ -1,0 +1,47 @@
+@media only screen and (max-width: 800px){
+   .navbar{
+      padding: 2rem 2rem;
+      justify-content: space-between;
+      .nav-items-container{
+         position: absolute;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         padding: 3rem 0;
+         width: calc(100% - 4rem);
+         top: 7rem;
+         left: 2rem;
+         margin: auto;
+         background-color: $clr-White;
+         color: $clr-DarkGrayishBlue;
+         transition: transform 100ms ease-in-out;
+         transform: translateY(-140%);
+         @import '../components/button';
+      }
+      .nav-items-container::before{
+         content: "";
+         width: 0;
+         height: 0;
+         border-style: solid;
+         border-width: 0 0 30px 30px;
+         border-color: transparent transparent $clr-White transparent;
+         position: absolute;
+         right: 0;
+         top: -30px;
+      }
+      .nav-items-container.active{
+         transition: transform 100ms ease-in-out;
+         transform: translateY(0);
+      }
+      .toggle{
+         width: 25px;
+         aspect-ratio: 1;
+         background-image: url(../images/icon-hamburger.svg);
+         background-size: cover;
+         cursor: pointer;
+      }
+      .toggle.active{
+         background-image: url(../../images/icon-close.svg);
+      }
+   }
+}
