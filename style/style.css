@@ -166,6 +166,10 @@ a {
   background-color: hsl(0deg, 0%, 100%);
 }
 
+.fs-50 {
+  font-size: 1rem;
+}
+
 .fs-100 {
   font-size: 1.25rem;
 }
