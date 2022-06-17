@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [URL here](https://your-solution-url.com)
-- Live Site URL: [URL here](https://your-live-site-url.com)
+- Solution URL: [URL here](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-9MLEvzHYZ4)
+- Live Site URL: [URL here](https://skolpionek.github.io/SunnysideAgencyLandingPage/)
 
 ### Built with
 
